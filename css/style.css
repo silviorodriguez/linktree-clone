@@ -1,0 +1,129 @@
+body { 
+ font-family: Consolas, monaco, monospace; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+}
+
+a {
+text-decoration: none;
+
+}
+
+main {
+    width: 450px;
+    margin: 50px auto;
+}
+.profile {
+    display: inline-block;
+    text-align: center;
+    font-size: 40px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.link-box {
+  position: relative;
+  display: inline-block;  
+  padding:  15px 30px;
+  color: #fff;
+  letter-spacing: 4px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.link-box:hover {
+   background: #000 ; 
+   box-shadow: 0 0 10px #000, 0 0 40px #000, 0 0 80px #000;
+   transition-delay: 1s;
+}
+.link-box span {
+    position: absolute;
+    display: block;
+}
+#btn1 {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#000);
+}
+.link-box:hover #btn1 {
+    left: 100%;
+    transition: 1s;
+}
+
+#btn3 {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#000);
+}
+.link-box:hover #btn3 {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+#btn2 {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#000);
+}
+.link-box:hover #btn2 {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+#btn4 {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#000);
+}
+.link-box:hover #btn4 {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+
+}
+a {
+    text-align: center;
+}
+
+
+body {
+  position: relative;
+  margin: 0;
+}
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 105%;
+  min-height: 100%;
+  transform: translateX(calc((100% - 100vw) / 2));
+  z-index: -2;
+  opacity: 80%;
+}
+h1 {
+  margin: 0;
+  padding-top: 3rem;
+  padding-left: 2rem;
+}
+h2 {
+  margin: 0;
+  padding-top: 3rem;
+  padding-left: 2rem;
+}
+
+
+.imagen-footer img {
+  padding-top: 120px;
+  width: 50px;
+}
